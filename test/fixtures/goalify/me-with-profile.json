@@ -1,0 +1,13 @@
+{
+  "_id": "111111111111111111111",
+  "companyId": "5919625966ec61100f8c167e",
+  "birthday": "16-Oct-1985",
+  "relationshipStatus": "Single",
+  "firstName": "tester",
+  "lastName": "goalify",
+  "fullname": "goalify tester",
+  "gender": "Male",
+  "phone": "0902332068",
+  "username": "test@goalify.plus",
+  "avatar": "https://s3-ap-southeast-1.amazonaws.com/webapp.prod.goalify.plus/5919625966ec61100f8c167e/174541da-7d3b-4d8e-86a3-fb575c3dd5e5.jpeg"
+}
