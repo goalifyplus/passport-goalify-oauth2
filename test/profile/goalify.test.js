@@ -40,7 +40,7 @@ describe('GoalifyProfile.parse', function() {
     it('should parse profile', function() {
       expect(profile.id).to.equal('111111111111111111111');
       expect(profile.displayName).to.equal('goalify tester');
-      expect(profile.name.familyName).to.equal('tester');
+      expect(profile.name.familyName).to.equal('goalify');
       expect(profile.name.givenName).to.equal('tester');
       expect(profile.emails).to.be.undefined;
       expect(profile.photos).to.have.length(1);
@@ -62,7 +62,7 @@ describe('GoalifyProfile.parse', function() {
     it('should parse profile', function() {
       expect(profile.id).to.equal('111111111111111111111');
       expect(profile.displayName).to.equal('goalify tester');
-      expect(profile.name.familyName).to.equal('tester');
+      expect(profile.name.familyName).to.equal('goalify');
       expect(profile.name.givenName).to.equal('tester');
       expect(profile.emails).to.have.length(1);
       expect(profile.emails[0].value).to.equal('test@goalify.plus');
@@ -86,7 +86,7 @@ describe('GoalifyProfile.parse', function() {
     it('should parse profile', function() {
       expect(profile.id).to.equal('111111111111111111111');
       expect(profile.displayName).to.equal('goalify tester');
-      expect(profile.name.familyName).to.equal('tester');
+      expect(profile.name.familyName).to.equal('goalify');
       expect(profile.name.givenName).to.equal('tester');
       expect(profile.emails).to.be.undefined;
       expect(profile.photos).to.be.undefined;

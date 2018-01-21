@@ -56,7 +56,7 @@ describe('Strategy#userProfile', function() {
       expect(profile.provider).to.equal('goalify');
       expect(profile.id).to.equal('111111111111111111111');
       expect(profile.displayName).to.equal('goalify tester');
-      expect(profile.name.familyName).to.equal('tester');
+      expect(profile.name.familyName).to.equal('goalify');
       expect(profile.name.givenName).to.equal('tester');
       expect(profile.emails[0].value).to.equal('test@goalify.plus');
       expect(profile.emails[0].type).to.equal('account');
@@ -107,7 +107,7 @@ describe('Strategy#userProfile', function() {
 
       expect(profile.id).to.equal('111111111111111111111');
       expect(profile.displayName).to.equal('goalify tester');
-      expect(profile.name.familyName).to.equal('tester');
+      expect(profile.name.familyName).to.equal('goalify');
       expect(profile.name.givenName).to.equal('tester');
       expect(profile.emails[0].value).to.equal('test@goalify.plus');
       expect(profile.emails[0].verified).to.equal(true);

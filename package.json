@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tuanquynet/passport-goalify-oauth2.git"
+    "url": "git@github.com:goalifyplus/passport-goalify-oauth2.git"
   },
   "bugs": {
     "url": "http://github.com/tuanquynet/passport-goalify-oauth2/issues"
