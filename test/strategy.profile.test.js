@@ -32,7 +32,7 @@ describe('Strategy#userProfile', function() {
   "email": "test@goalify.plus",
   "firstName": "tester",
   "lastName": "goalify",
-  "fullname": "tester goalify",
+  "fullname": "goalify tester",
   "gender": "Male",
   "phone": "0903382068",
   "username": "test@goalify.plus",
@@ -54,11 +54,10 @@ describe('Strategy#userProfile', function() {
 
     it('should parse profile', function() {
       expect(profile.provider).to.equal('goalify');
-
       expect(profile.id).to.equal('111111111111111111111');
-      expect(profile.displayName).to.equal('test@goalify.plus');
-      expect(profile.name.familyName).to.equal('test@goalify.plus');
-      expect(profile.name.givenName).to.equal('test@goalify.plus');
+      expect(profile.displayName).to.equal('goalify tester');
+      expect(profile.name.familyName).to.equal('tester');
+      expect(profile.name.givenName).to.equal('tester');
       expect(profile.emails[0].value).to.equal('test@goalify.plus');
       expect(profile.emails[0].type).to.equal('account');
       expect(profile.photos[0].value).to.equal('https://s3-ap-southeast-1.amazonaws.com/webapp.prod.goalify.plus/5919625966ec61100f8c167e/174541da-7d3b-4d8e-86a3-fb575c3dd5e5.jpeg');
@@ -107,9 +106,9 @@ describe('Strategy#userProfile', function() {
       expect(profile.provider).to.equal('goalify');
 
       expect(profile.id).to.equal('111111111111111111111');
-      expect(profile.displayName).to.equal('test@goalify.plus');
-      expect(profile.name.familyName).to.equal('test@goalify.plus');
-      expect(profile.name.givenName).to.equal('test@goalify.plus');
+      expect(profile.displayName).to.equal('goalify tester');
+      expect(profile.name.familyName).to.equal('tester');
+      expect(profile.name.givenName).to.equal('tester');
       expect(profile.emails[0].value).to.equal('test@goalify.plus');
       expect(profile.emails[0].verified).to.equal(true);
       expect(profile.photos[0].value).to.equal('https://s3-ap-southeast-1.amazonaws.com/webapp.prod.goalify.plus/5919625966ec61100f8c167e/174541da-7d3b-4d8e-86a3-fb575c3dd5e5.jpeg');
