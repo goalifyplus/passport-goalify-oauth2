@@ -1,4 +1,4 @@
-# passport-google-oauth20
+# passport-google-oauth2
 
 This library is inspired from [passport-google-oauth2](https://github.com/jaredhanson/passport-google-oauth2)
 This is a [Passport](http://passportjs.org/) strategy for authenticating with [Goalify](http://goalify.plus/) using the OAuth 2.0 API.
