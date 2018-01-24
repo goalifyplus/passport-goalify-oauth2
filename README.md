@@ -11,14 +11,14 @@ unobtrusively integrated into any application or framework that supports
 ## Install
 
 ```bash
-$ npm install passport-google-oauth20
+$ npm install passport-google-oauth2
 ```
 
 ## Usage
 
 #### Create an Application
 
-Before using `passport-goalify-oauth20`, you must register an application with
+Before using `passport-goalify-oauth2`, you must register an application with
 Goalify.  If you have not already done so, a new project can be created in the
 Goalify developer setting.
 Your application will be issued a client ID and client secret, which need to be
